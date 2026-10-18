@@ -6,6 +6,7 @@ COPY hw2/hw/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY hw2/hw/shop_api ./shop_api
+COPY hw4 ./hw4
 
 EXPOSE 8000
 
